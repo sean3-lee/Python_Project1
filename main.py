@@ -15,10 +15,6 @@ def visualize_features(X, y):
         X: An array of shape [n_samples, 2].
         y: An array of shape [n_samples,]. Only contains 1 or -1.
 
-    Returns:
-        No return. Save the plot to 'train_features.*' and include it
-        in submission.
-    '''
 
     plt.clf()
     plt.plot(X[y==1,0],X[y==1,1],'or' ,markersize=3)
